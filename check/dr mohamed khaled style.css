@@ -1,0 +1,58 @@
+.navbar {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+li {
+  background-color: cornflowerblue;
+  border-right: 3px solid rgb(4, 4, 46);
+  float: left;
+  text-align: center;
+  display: block;
+  border-radius: 10px;
+  padding: 3px;
+  margin: 0px;
+  width: auto;
+  height: auto;
+}
+li a {
+  font-size: 40px;
+  font-weight: 300px;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  text-decoration: none;
+}
+.nav2 {
+  float: right;
+}
+li :hover {
+  background-color: aqua;
+  color: black;
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 3px;
+}
+.img1 {
+  height: 500px;
+  width: 100%;
+  border: solid black 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.table {
+  border: 2px salmon outset;
+  float: inline-start;
+  width: 50%;
+  height: 30%;
+  font-size: 20px;
+  font-weight: 200;
+  border-radius: 5px;
+  text-align: center;
+}
+th {
+  font-size: xx-large;
+  color: blue;
+  background-color: darkseagreen;
+}
